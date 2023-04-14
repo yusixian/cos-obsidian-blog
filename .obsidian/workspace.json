@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b93faffc49ac092",
+        "id": "acb1dc281b26b643",
         "type": "tabs",
         "children": [
           {
-            "id": "ad2f53fd11b6127b",
+            "id": "27407c7fdc231787",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#算法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 279.51103591918945
   },
   "right": {
     "id": "e71dd17bfcbab262",
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -165,12 +165,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad2f53fd11b6127b",
+  "active": "27407c7fdc231787",
   "lastOpenFiles": [
+    "tag/leetcode.md",
     "coding-train/bytedance-code-train.md",
-    "未命名.canvas",
+    "note/cover.jpg",
+    "note/front-end/react/React学习小记.md",
+    "note/front-end/Tailwind-Update-v3-3.md",
     "life/2022-life-review.md",
     "life/2020暑假训练总结：ysx.md",
+    "README.md",
+    "tools/2022前端vscode插件推荐.md",
+    "coding-train/cover.jpg",
+    "pages/about/index.md",
+    "pages/about/index/ife_2021_st_2.jpg",
+    "pages/about/index/ife_2021_st_1.jpg",
+    "pages/about/index/大作业演示.gif",
+    "未命名.canvas",
     "coding-train/offer/day1.md",
     "coding-train/offer/day10.md",
     "coding-train/offer/day7.md",
@@ -187,28 +198,17 @@
     "coding-train/bytedance/bytedance-day17.md",
     "coding-train/bytedance/bytedance-day16.md",
     "coding-train/bytedance/bytedance-day15.md",
-    "coding-train/bytedance/bytedance-day14.md",
-    "coding-train/bytedance/bytedance-day13.md",
-    "coding-train/bytedance/bytedance-day12.md",
-    "coding-train/cover.jpg",
-    "coding-train/bytedance/bytedance-day11.md",
-    "coding-train/bytedance/bytedance-day10.md",
-    "coding-train/bytedance/bytedance-day9.md",
-    "tags",
+    "tag",
     "tasks",
     "未命名 3.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "pages/friends",
     "pages/about/index/布局练习.png",
-    "pages/about/index/大作业演示.gif",
     "pages/about/index/todolist.png",
     "pages/about/index/ife_2021_st_6.jpg",
     "pages/about/index/ife_2021_st_5.jpg",
     "pages/about/index/ife_2021_st_4.jpg",
-    "pages/about/index/ife_2021_st_3.jpg",
-    "pages/about/index/ife_2021_st_2.jpg",
-    "pages/about/index/ife_2021_st_1.jpg",
     "pages/about/index",
     "pages/about",
     "pages",

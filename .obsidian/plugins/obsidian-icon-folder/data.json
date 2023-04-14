@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiImage",
+      "FasCode",
+      "SiThealgorithms",
+      "SiBytedance",
+      "RiComputer-fill"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "coding-train": "SiVisualstudiocode",
+  "life": "SiAdafruit",
+  "note": "IbDocument",
+  "pages": "RiPages-fill",
+  "project": "FasFolder",
+  "review": "SiAlibabacloud",
+  "tag": "LiTag",
+  "tools": "RiTools-fill",
+  "note/front-end/react": "SiReact-white",
+  "note/front-end/javascript": "SiJavascript",
+  "note/front-end": "SiReact-white",
+  "note/data-structure": "SiDatabricks",
+  "note/cs-basics": "RiComputer-fill",
+  "note/bytedance-note": "SiBytedance",
+  "coding-train/bytedance-code-train.md": "SiBytedance",
+  "note/algorithm": "SiThealgorithms",
+  "note/back-end": "FasCode",
+  "note/front-end/react/Redux学习之路（一）Redux三原则、createSore原理及实现": "LiImage"
+}
