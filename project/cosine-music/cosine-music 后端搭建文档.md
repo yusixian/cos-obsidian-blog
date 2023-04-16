@@ -1,0 +1,311 @@
+## 初始化
+
+### prisma & express & ts
+
+```bash
+npm init -y
+npm i prisma typescript ts-node-dev @types/node @types/express  -D
+npm i @prisma/client express
+npx prisma init
+```
+
+- [QuickStart With TypeScript And Mysql](https://www.prisma.io/docs/getting-started/quickstart)
+- [Ts + express 后端项目搭建记录](https://juejin.cn/post/7069770431871320078#heading-1)
+
+package.json 新增启动脚本
+
+```json
+"scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+},
+```
+
+新增 tsconfig.json
+
+```json
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
+```
+
+新增 app.ts 和 routes
+
+```
+├─ .gitignore
+├─ .prettierrc.js
+├─ package-lock.json
+├─ package.json
+├─ prisma
+│  └─ schema.prisma
+├─ README.md
+├─ src
+│  ├─ app.ts
+│  └─ routes
+│     └─ index.ts
+├─ tsconfig.json
+└─ .env
+```
+
+```typescript
+// src/app.ts
+
+import express from 'express';
+import routes from './routes'; // 路由
+
+const app = express();
+
+app.use(express.json());
+
+const PORT = 1337;
+
+// 启动
+app.listen(PORT, async () => {
+  console.log(`App is running at http://localhost:${PORT}`);
+  routes(app);
+});
+```
+
+```typescript
+// src/routes/index.ts
+
+import { Express, Request, Response, Router } from 'express';
+
+// 路由配置接口
+interface RouterConf {
+  path: string;
+  router: Router;
+  meta?: any;
+}
+
+// 路由配置
+const routerConf: Array<RouterConf> = [];
+
+function routes(app: Express) {
+  // 根目录
+  app.get('/', (req: Request, res: Response) => res.status(200).send('Hello Shinp!!!'));
+
+  routerConf.forEach((conf) => app.use(conf.path, conf.router));
+}
+
+export default routes;
+```
+
+### 代码规范
+
+```bash
+npm i -D prettier eslint eslint-plugin-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier
+```
+
+.eslintrc.js
+
+```javascript
+// .eslintrc.js
+
+module.exports = {
+  root: true,
+  // 扩展规则
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended', 'prettier'],
+  parserOptions: {
+    ecmaVersion: 12,
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module',
+  },
+  // 注册插件
+  plugins: ['@typescript-eslint', 'prettier'],
+  // 规则 根据自己需要增加
+  rules: {
+    'no-var': 'error',
+    'no-undef': 0,
+    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+  },
+};
+```
+
+.prettierrc.js 配置
+
+```javascript
+// .prettierrc.js
+module.exports = {
+  tabWidth: 2,
+  useTabs: false,
+  semi: true,
+  singleQuote: true,
+  quoteProps: 'as-needed',
+  jsxSingleQuote: false,
+  trailingComma: 'all',
+  bracketSpacing: true,
+  jsxBracketSameLine: false,
+  arrowParens: 'always',
+  rangeStart: 0,
+  rangeEnd: Infinity,
+  requirePragma: false,
+  insertPragma: false,
+  proseWrap: 'preserve',
+  htmlWhitespaceSensitivity: 'css',
+  vueIndentScriptAndStyle: false,
+  endOfLine: 'lf',
+  embeddedLanguageFormatting: 'auto',
+  printWidth: 128,
+};
+```
+
+再往下基本都是这个里面的了，然后进行拓展
+
+- [Ts + express 后端项目搭建记录](https://juejin.cn/post/7069770431871320078#heading-1)
+
+## 搭建用户认证系统
+
+首先安装 `bcryptjs` 和 `jsonwebtoken` ，用于密码散列和生成令牌。
+
+```bash
+yarn add bcryptjs jsonwebtoken
+```
+
+### bcryptjs
+
+在 `src/middleware/user.middleware.ts` 中编写加密密码的中间件
+
+```typescript
+/**
+ * @description: 密码加密
+ */
+export const cryptPassword = (req: RequestBody<Prisma.UserCreateInput>, res: Response, next: NextFunction) => {
+  const { password } = req.body;
+  const salt = bcrypt.genSaltSync(10);
+  // hash保存的是密文
+  const hash = bcrypt.hashSync(password, salt);
+  req.body.password = hash;
+  next();
+};
+```
+
+顺便把验证唯一用户的中间件也加上
+
+```typescript
+/**
+ * @description: 验证注册用户唯一性
+ */
+export const validateUniqueUser = async (req: RequestBody<Prisma.UserCreateInput>, res: Response, next: NextFunction) => {
+  const { user_name } = req.body;
+  const user = await userService.findUserByUserName(user_name);
+  if (user) commonRes.error(res, null, '用户名已存在');
+  else next();
+};
+```
+
+现在存入数据库的密码便是经过加密的啦
+
+###
+
+## 嵌入 apifox 在线接口文档等
+
+使用 [Express - art-template](https://aui.github.io/art-template/express/)
+
+首先安装
+
+```bash
+yarn add art-template express-art-template
+```
+
+
+在 `express` 中，有一个 `render()` 方法，一般情况下是不能用的，但配合这个模板引擎，就可以使用了
+- 用法：`render("文件名",{模板数据});`
+- 在 src 下新建 views 文件夹存放我们的视图
+
+```html
+<!-- src/views/index.html -->
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>index</title>
+  </head>
+  <body>
+    <h1>{{name}}</h1>
+    <p>恭喜~ 服务成功跑起来啦</p>
+    <p>
+      接口文档 👉 <a href="https://apifox.com/apidoc/shared-6af432f7-e747-42a0-b64d-058b9b288df0/api-70897715">📖接口文档</a>
+    </p>
+    <iframe
+      src="https://apifox.com/apidoc/shared-6af432f7-e747-42a0-b64d-058b9b288df0/api-70897715"
+      width="100%"
+      height="900px"
+    ></iframe>
+  </body>
+</html>
+```
+
+```typescript
+// src/app.ts
+app.engine('html', require('express-art-template'));
+app.set('view options', {
+  debug: process.env.NODE_ENV !== 'production',
+});
+app.set('views', path.join(__dirname, 'views'));
+app.get('/', function (req, res) {
+  res.render('index.html', {
+    //模板数据如下
+    name: '首页',
+  });
+});
+```
+
+此时就出来了
+
+![[Pasted image 20230415033024.png]]
+
+## CORS 解决跨域
+
+```bash
+yarn add cors
+```
+
+
+## 接口设计
+
+### 项目 TODO
+
+#todo  
+- [x] 初始环境搭建
+- [ ] 功能设计
+- [ ] 数据库设计
+
+### 功能模块 TODO
+
+#todo  
+- [ ] ⏫ 普通用户模块
+  - [ ] ⏫ 注册 ing
+  - [ ] ⏫ 登录
+  - [ ] 修改用户信息
+  - [ ] 修改用户密码
+- [ ] 管理员模块
+  - [ ] 注册 ing
+  - [ ] 登录
+  - [ ] 添加其他管理员/用户
+  - [ ] 修改所有用户信息
+- [ ] 音乐模块
+  - [ ] ⏫ 查询音乐
+  - [ ] ⏫ 添加新音乐（管理员）
+  - [ ] ⏫ 删除音乐（管理员）
+  - [ ] 更新音乐信息（管理员）
+- [ ] 歌单模块
+  - [ ] 查询歌单信息
+  - [ ] 添加新歌单
+  - [ ] 删除歌单（普通用户仅修改自己的）
+  - [ ] 更新歌单信息（普通用户仅修改自己的）
+- [ ] 标签模块 
+- [ ] 分区模块 
+  - [ ] 添加分区（自定义分区封面） 
+  - [ ] 删除分区 
+- [ ] 推荐模块
+  - [ ] 随机推荐
+  - [ ] 前 xxx 推荐
