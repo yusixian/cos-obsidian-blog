@@ -11,7 +11,8 @@
   "includeFiles": "",
   "lookAndFeel": "classic",
   "_collapsedSections": [
-    "project/cosine-music 后端搭建文档.md"
+    "project/cosine-music 后端搭建文档.md",
+    "_posts/project/cosine-music/cosine-music 后端搭建文档.md"
   ],
   "_hiddenTags": []
 }

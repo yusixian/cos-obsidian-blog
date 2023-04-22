@@ -4,5 +4,17 @@
   "nativeMenus": false,
   "theme": "obsidian",
   "cssTheme": "Obsidianite",
-  "baseFontSize": 17
+  "baseFontSize": 16,
+  "interfaceFontFamily": "Inter,江城圆体",
+  "textFontFamily": "Inter,江城圆体",
+  "monospaceFontFamily": "Consolas",
+  "enabledCssSnippets": [
+    "custom-rainbow-colors",
+    "extended-colorschemes",
+    "floating-search-bar",
+    "floating-status-bar",
+    "its-frontmatter",
+    "minimal-cards",
+    "notion-cards"
+  ]
 }

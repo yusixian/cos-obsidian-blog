@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "acb1dc281b26b643",
+        "id": "9b1d42a5107a24aa",
         "type": "tabs",
         "children": [
           {
-            "id": "27407c7fdc231787",
+            "id": "bfd350528c829672",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project/cosine-music/cosine-music 后端搭建文档.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04291d0cf26f25c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md",
+                "file": "pages/about/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#算法",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.51103591918945
+    "width": 239.5
   },
   "right": {
     "id": "e71dd17bfcbab262",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md",
+                "file": "pages/about/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md",
+                "file": "pages/about/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md"
+                "file": "pages/about/index.md"
               }
             }
           },
@@ -163,72 +150,72 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "04291d0cf26f25c5",
+  "active": "bfd350528c829672",
   "lastOpenFiles": [
-    "tools/Hexo博客url优化.md",
-    "tools/cover.jpg",
-    "tools/2022前端vscode插件推荐.md",
-    "tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md",
-    "project/cosine-music/cosine-music 后端搭建文档.md",
-    "Pasted image 20230415032042.png",
-    "Pasted image 20230415033024.png",
-    "project/cosine-music/cosine-music 前端搭建文档.md",
-    "2023-04-15.md",
-    "未命名.md",
-    "未命名",
     "README.md",
-    "project/仿Antd组件之DatePicker组件实现.md",
-    "project/cosine-music",
-    "coding-train/bytedance-code-train.md",
-    "tag/leetcode.md",
-    "note/cover.jpg",
-    "note/front-end/react/React学习小记.md",
-    "note/front-end/Tailwind-Update-v3-3.md",
-    "life/2022-life-review.md",
-    "life/2020暑假训练总结：ysx.md",
-    "coding-train/cover.jpg",
     "pages/about/index.md",
-    "pages/about/index/ife_2021_st_2.jpg",
-    "pages/about/index/ife_2021_st_1.jpg",
-    "pages/about/index/大作业演示.gif",
-    "未命名.canvas",
-    "coding-train/offer/day1.md",
-    "coding-train/offer/day10.md",
-    "coding-train/offer/day7.md",
-    "coding-train/offer/day3.md",
-    "coding-train/offer/day2.md",
-    "coding-train/contest/PAT乙级刷题感想及踩坑总结.md",
-    "coding-train/contest/2021秋PAT乙级真题题解及赛后总结.md",
-    "coding-train/contest/2020蓝桥杯省模拟赛题目记录.md",
-    "coding-train/bytedance/bytedance-day22.md",
-    "coding-train/bytedance/bytedance-day21.md",
+    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
+    "_posts/note/bytedance-note/1111.md",
+    "tasks/Todo.md",
+    "TODO.md",
+    "_posts/note/front-end/Tailwind-Update-v3-3.md",
+    "_posts/note/cover.jpg",
+    "_posts/note/front-end/Floating UI 使用经验分享 - Popover.md",
+    "1231.md",
+    "tasks/未命名看板 1.md",
+    "tasks/未命名看板.md",
+    "tag/leetcode.md",
+    "_posts",
+    "tasks",
+    "_posts/tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md",
     "tag",
+    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
+    "_posts/project/cosine-music",
+    "Pasted image 20230420122717.png",
+    "日报/2023-04-10.md",
+    "日报/2023-04-11.md",
+    "日报",
+    "_posts/note/data-structure/PTA数据结构题目集 第一周——最大子列和算法、二分查找.md",
+    "_posts/note/back-end/高级java复习笔记（期末不要挂啦）.md",
+    "_posts/note/cs-basics/编译原理实验二.md",
+    "_posts/note/data-structure/数据结构学习笔记＜1＞ 线性表.md",
+    "_posts/note/front-end/javascript/onClick与addEventListener区别.md",
+    "_posts/note/back-end/python网络爬虫学习笔记(一) 爬取简单静态网页.md",
+    "_posts/note/data-structure/模板类封装(2)——顺序栈和链式栈.md",
+    "pages/friends/index.md",
+    "tags/leetcode.md",
+    "_posts/life/2020暑假训练总结：ysx.md",
+    "todos",
+    "未命名.canvas",
+    "_posts/coding-train/cover.jpg",
+    "tags",
     "tasks",
     "未命名 3.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "pages/friends",
     "pages/about/index/布局练习.png",
+    "pages/about/index/大作业演示.gif",
     "pages/about/index/todolist.png",
-    "pages/about/index",
-    "pages/about",
-    "pages",
-    "新建文件夹",
-    "review/exam-record"
+    "pages/about/index/ife_2021_st_6.jpg",
+    "pages/about/index/ife_2021_st_5.jpg",
+    "pages/about/index/ife_2021_st_4.jpg",
+    "pages/about/index/ife_2021_st_3.jpg",
+    "pages/about/index"
   ]
 }

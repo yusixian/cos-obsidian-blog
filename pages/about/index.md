@@ -21,6 +21,7 @@ description: "关于我？"
 愿热情永存，愿热爱不灭，愿生活无憾
 
 ![https://github.com/yusixian](https://github-readme-stats.vercel.app/api?username=yusixian&count_private=true&theme=dark&show_icons=true)
+
 ![snake gif](https://raw.githubusercontent.com/yusixian/yusixian/output/github-contribution-grid-snake.gif)
 
 ## ⭐ 咱最爱的小项目！
@@ -125,7 +126,7 @@ NPM 包：https://www.npmjs.com/package/@dance-ui/ui
 P12 官网：[p12.network](https://p12.network/)
 Github地址：[airdrop-interface](https://github.com/ProjectTwelve/airdrop-interface)、[P12 Team](https://github.com/ProjectTwelve)
 
-![airdrop-1](./index/airdrop-1.png)
+![airdrop-1](airdrop-1.png)
 
 ## 仿antd日期选择器~
 
@@ -269,4 +270,4 @@ prompt.promptError(errorMsg);
 
 #### 演示
 
-![大作业演示](./index/大作业演示.gif)
+![大作业演示](大作业演示.gif)

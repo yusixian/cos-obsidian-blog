@@ -7,5 +7,5 @@
   "tabSize": 4,
   "useTab": false,
   "promptDelete": false,
-  "alwaysUpdateLinks": false
+  "alwaysUpdateLinks": true
 }
