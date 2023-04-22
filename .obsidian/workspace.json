@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9b1d42a5107a24aa",
+        "id": "b82e02acfa0199b0",
         "type": "tabs",
         "children": [
           {
-            "id": "bfd350528c829672",
+            "id": "00807d1150470ded",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/about/index.md",
+                "file": "_daily/2023/04/2023-04-23_周日.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#今日小结",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,8 +76,24 @@
     "type": "split",
     "children": [
       {
+        "id": "9f037a8aa280365f",
+        "type": "tabs",
+        "dimension": 37.38977072310406,
+        "children": [
+          {
+            "id": "fc3aa41c2e0e39e4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "c3344a894a0503f6",
         "type": "tabs",
+        "dimension": 62.61022927689594,
         "children": [
           {
             "id": "30c577b978d5c1a6",
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/about/index.md",
+                "file": "_daily/2023/04/2023-04-23_周日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/about/index.md",
+                "file": "_daily/2023/04/2023-04-23_周日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/about/index.md"
+                "file": "_daily/2023/04/2023-04-23_周日.md"
               }
             }
           },
@@ -146,76 +162,78 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": true,
-      "graph:查看关系图谱": false,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": false,
+      "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "bfd350528c829672",
+  "active": "591d76724f2ebb59",
   "lastOpenFiles": [
+    "_daily/2023/04/2023-04-23_周日.md",
+    "templates/script/ss_new_post_draft.md",
     "README.md",
-    "pages/about/index.md",
-    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
-    "_posts/note/bytedance-note/1111.md",
-    "tasks/Todo.md",
-    "TODO.md",
+    "templates/script/ss_cos-daily.md",
+    "templates/basic/table.md",
+    "templates/basic",
+    "_tasks/Todo.md",
+    "_drafts/这是一篇测试文章.md",
+    "_drafts/2023-04-23_01-04-18.md",
+    "templates/Todo.md",
+    "_drafts/2023-04-23_01-04-89.md",
+    "_drafts/2023-04-23_01-04-25.md",
+    "_drafts",
+    "_posts/2023-04-23_01-04-45.md",
+    "2023-04-23_01-04-22.md",
+    "2023-04-23_01-04-70.md",
+    "2023-04-23_01-04-48.md",
+    "_daily/2023/2023-04-23_周日.md",
+    "_daily/2023/04",
+    "_posts/project/仿Antd组件之DatePicker组件实现.md",
+    "_posts/tools/小爱课程表.md",
     "_posts/note/front-end/Tailwind-Update-v3-3.md",
-    "_posts/note/cover.jpg",
     "_posts/note/front-end/Floating UI 使用经验分享 - Popover.md",
-    "1231.md",
-    "tasks/未命名看板 1.md",
-    "tasks/未命名看板.md",
-    "tag/leetcode.md",
-    "_posts",
-    "tasks",
-    "_posts/tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md",
-    "tag",
-    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
-    "_posts/project/cosine-music",
+    "_posts/coding-train/bytedance-code-train.md",
+    "111.md",
+    "_posts/project/Campus SNS校园社区后端接口开发.md",
+    "未命名 2.md",
+    "_daily/20232023-04-23_周日.md",
+    "_daily/2023",
+    "_daily/未命名",
+    "Daily",
+    "templates/script",
+    "templates/table",
+    "assets",
+    "templates",
+    "_posts/note/cover.jpg",
     "Pasted image 20230420122717.png",
-    "日报/2023-04-10.md",
-    "日报/2023-04-11.md",
-    "日报",
-    "_posts/note/data-structure/PTA数据结构题目集 第一周——最大子列和算法、二分查找.md",
-    "_posts/note/back-end/高级java复习笔记（期末不要挂啦）.md",
-    "_posts/note/cs-basics/编译原理实验二.md",
-    "_posts/note/data-structure/数据结构学习笔记＜1＞ 线性表.md",
-    "_posts/note/front-end/javascript/onClick与addEventListener区别.md",
-    "_posts/note/back-end/python网络爬虫学习笔记(一) 爬取简单静态网页.md",
-    "_posts/note/data-structure/模板类封装(2)——顺序栈和链式栈.md",
-    "pages/friends/index.md",
-    "tags/leetcode.md",
-    "_posts/life/2020暑假训练总结：ysx.md",
-    "todos",
     "未命名.canvas",
     "_posts/coding-train/cover.jpg",
-    "tags",
-    "tasks",
     "未命名 3.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
-    "pages/friends",
-    "pages/about/index/布局练习.png",
-    "pages/about/index/大作业演示.gif",
-    "pages/about/index/todolist.png",
-    "pages/about/index/ife_2021_st_6.jpg",
-    "pages/about/index/ife_2021_st_5.jpg",
-    "pages/about/index/ife_2021_st_4.jpg",
-    "pages/about/index/ife_2021_st_3.jpg",
-    "pages/about/index"
+    "_pages/about/index/布局练习.png",
+    "_pages/about/index/大作业演示.gif",
+    "_pages/about/index/todolist.png",
+    "_pages/about/index/ife_2021_st_6.jpg",
+    "_pages/about/index/ife_2021_st_5.jpg",
+    "_pages/about/index/ife_2021_st_4.jpg",
+    "_pages/about/index/ife_2021_st_3.jpg"
   ]
 }

@@ -6,7 +6,7 @@ subtitle: 知识点：链表；冲刺01简单，冲刺02中等，冲刺03困难�
 date: 2022-03-08 18:00:52
 cover: img/header_img/milky-way-over-bow-lake-alberta-canada-wallpaper-for-1920x1080-63-873.jpg
 tags:
-- #leetcode
+- leetcode
 categories:
 - [题目记录]
 ---

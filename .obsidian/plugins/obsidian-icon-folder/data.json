@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasF",
-      "RiTaskFill",
-      "SiBlogger",
-      "LiImage",
-      "FasCode"
+      "FasToolbox",
+      "LiInfo",
+      "LiCalendarDays",
+      "FasPager",
+      "FasF"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,8 +39,10 @@
   "_posts/note/front-end/react/Redux学习之路（一）Redux三原则、createSore原理及实现": "LiImage",
   "_posts/project": "FasFolder",
   "_posts/review": "SiAlibabacloud",
-  "_posts/tools": "RiTools-fill",
+  "_posts/tools": "FasToolbox",
   "_posts": "SiBlogger",
-  "tasks": "RiTaskFill",
-  "pages": "RiPages-fill"
+  "_infos": "LiInfo",
+  "_daily": "LiCalendarDays",
+  "_pages": "FasPager",
+  "_tasks": "RiTaskFill"
 }

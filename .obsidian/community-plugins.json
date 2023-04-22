@@ -16,5 +16,9 @@
   "obsidian-checklist-plugin",
   "tag-wrangler",
   "obsidian-icon-folder",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "calendar",
+  "periodic-notes",
+  "templater-obsidian",
+  "dataview"
 ]

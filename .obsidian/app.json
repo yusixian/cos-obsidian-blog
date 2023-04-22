@@ -7,5 +7,6 @@
   "tabSize": 4,
   "useTab": false,
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "assets"
 }
