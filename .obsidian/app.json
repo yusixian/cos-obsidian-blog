@@ -8,5 +8,12 @@
   "useTab": false,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Legal",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

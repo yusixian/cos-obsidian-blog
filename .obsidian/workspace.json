@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b82e02acfa0199b0",
+        "id": "199dc2fd4fbc2780",
         "type": "tabs",
         "children": [
           {
-            "id": "00807d1150470ded",
+            "id": "62d2963db300661c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2023/04/2023-04-23_周日.md",
+                "file": "_daily/2023/05/2023-05-02_周二.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 200
   },
   "right": {
     "id": "e71dd17bfcbab262",
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2023/04/2023-04-23_周日.md",
+                "file": "_daily/2023/05/2023-05-02_周二.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2023/04/2023-04-23_周日.md",
+                "file": "_daily/2023/05/2023-05-02_周二.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2023/04/2023-04-23_周日.md"
+                "file": "_daily/2023/05/2023-05-02_周二.md"
               }
             }
           },
@@ -162,16 +162,14 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": true,
       "canvas:新建白板": true,
       "daily-notes:打开/创建今天的日记": true,
@@ -181,46 +179,51 @@
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "591d76724f2ebb59",
+  "active": "62d2963db300661c",
   "lastOpenFiles": [
+    "assets/20230503041829_rec_.gif",
+    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
+    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
+    "_posts/project/仿Antd组件之DatePicker组件实现.md",
+    "_posts/project/Campus SNS校园社区后端接口开发.md",
+    "_drafts/Floating UI 使用经验分享 - Dialog.md",
+    "_posts/note/front-end/Floating UI 使用经验分享 - Popover.md",
+    "_drafts/Floating UI 使用经验分享 - Popover 1.md",
+    "_drafts/这是一篇测试文章.md",
+    "_posts/tools/vercel部署Hexo博客.md",
+    "_posts/tools/Hexo主题Shoka配置.md",
+    "_posts/tools/Hexo迁移xlog有感.md",
+    "_posts/tools/cover.jpg",
+    "_daily/2023/05/2023-05-02_周二.md",
+    "temp/2023-05-01_周一.pdf",
+    "_daily/2023/05/2023-05-01_周一.md",
+    "temp",
+    "assets/Pasted image 20230502024623.png",
+    "assets",
+    "Pasted image 20230502024558.png",
     "_daily/2023/04/2023-04-23_周日.md",
-    "templates/script/ss_new_post_draft.md",
-    "README.md",
     "templates/script/ss_cos-daily.md",
     "templates/basic/table.md",
-    "templates/basic",
+    "2023-05-01_周一.pdf",
+    "2023-05-03_周三.md",
+    "2023-04-23_周日.pdf",
+    "README.md",
     "_tasks/Todo.md",
-    "_drafts/这是一篇测试文章.md",
+    "2023-04-30_周日.md",
+    "_daily/2023/05",
+    "templates/script/ss_new_post_draft.md",
+    "templates/basic",
     "_drafts/2023-04-23_01-04-18.md",
     "templates/Todo.md",
     "_drafts/2023-04-23_01-04-89.md",
     "_drafts/2023-04-23_01-04-25.md",
     "_drafts",
-    "_posts/2023-04-23_01-04-45.md",
-    "2023-04-23_01-04-22.md",
-    "2023-04-23_01-04-70.md",
-    "2023-04-23_01-04-48.md",
-    "_daily/2023/2023-04-23_周日.md",
     "_daily/2023/04",
-    "_posts/project/仿Antd组件之DatePicker组件实现.md",
-    "_posts/tools/小爱课程表.md",
-    "_posts/note/front-end/Tailwind-Update-v3-3.md",
-    "_posts/note/front-end/Floating UI 使用经验分享 - Popover.md",
-    "_posts/coding-train/bytedance-code-train.md",
-    "111.md",
-    "_posts/project/Campus SNS校园社区后端接口开发.md",
-    "未命名 2.md",
-    "_daily/20232023-04-23_周日.md",
     "_daily/2023",
-    "_daily/未命名",
-    "Daily",
-    "templates/script",
-    "templates/table",
-    "assets",
-    "templates",
     "_posts/note/cover.jpg",
     "Pasted image 20230420122717.png",
     "未命名.canvas",
@@ -231,9 +234,6 @@
     "_pages/about/index/布局练习.png",
     "_pages/about/index/大作业演示.gif",
     "_pages/about/index/todolist.png",
-    "_pages/about/index/ife_2021_st_6.jpg",
-    "_pages/about/index/ife_2021_st_5.jpg",
-    "_pages/about/index/ife_2021_st_4.jpg",
-    "_pages/about/index/ife_2021_st_3.jpg"
+    "_pages/about/index/ife_2021_st_6.jpg"
   ]
 }

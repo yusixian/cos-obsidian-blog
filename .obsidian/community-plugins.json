@@ -16,9 +16,11 @@
   "obsidian-checklist-plugin",
   "tag-wrangler",
   "obsidian-icon-folder",
-  "obsidian-image-auto-upload-plugin",
   "calendar",
   "periodic-notes",
   "templater-obsidian",
-  "dataview"
+  "dataview",
+  "cmdr",
+  "emoji-shortcodes",
+  "obsidian-emoji-toolbar"
 ]
