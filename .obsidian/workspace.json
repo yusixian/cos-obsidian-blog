@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "199dc2fd4fbc2780",
+        "id": "7d6e68f267b882b0",
         "type": "tabs",
         "children": [
           {
-            "id": "62d2963db300661c",
+            "id": "5a7ef83528fff93a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2023/05/2023-05-02_周二.md",
+                "file": "_daily/2023/05/2023-05-05_周五.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "8ba566610c2929bf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -101,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2023/05/2023-05-02_周二.md",
+                "file": "_daily/2023/05/2023-05-05_周五.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2023/05/2023-05-02_周二.md",
+                "file": "_daily/2023/05/2023-05-05_周五.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2023/05/2023-05-02_周二.md"
+                "file": "_daily/2023/05/2023-05-05_周五.md"
               }
             }
           },
@@ -166,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,14 +192,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "62d2963db300661c",
+  "active": "5a7ef83528fff93a",
   "lastOpenFiles": [
-    "assets/20230503041829_rec_.gif",
-    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
-    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
-    "_posts/project/仿Antd组件之DatePicker组件实现.md",
-    "_posts/project/Campus SNS校园社区后端接口开发.md",
+    "_daily/2023/05/2023-05-05_周五.md",
+    "assets/Pasted image 20230505184138.png",
+    "_daily/2023/05/2023-05-04_周四.md",
+    "_drafts/致  谢.md",
     "_drafts/Floating UI 使用经验分享 - Dialog.md",
+    "未命名 1.md",
+    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
+    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
+    "_posts/project/仿Antd组件之DatePicker组件实现.md",
+    "_daily/2023/05/2023-05-03_周三.md",
+    "未命名.md",
+    "assets/Pasted image 20230504031827.png",
+    "assets/Pasted image 20230504031829.png",
+    "assets/Pasted image 20230502024623.png",
+    "_daily/2023/05/2023-05-01_周一.md",
+    "_daily/2023/05/2023-05-02_周二.md",
+    "_posts/project/Campus SNS校园社区后端接口开发.md",
+    "assets/20230503041829_rec_.gif",
     "_posts/note/front-end/Floating UI 使用经验分享 - Popover.md",
     "_drafts/Floating UI 使用经验分享 - Popover 1.md",
     "_drafts/这是一篇测试文章.md",
@@ -198,11 +219,8 @@
     "_posts/tools/Hexo主题Shoka配置.md",
     "_posts/tools/Hexo迁移xlog有感.md",
     "_posts/tools/cover.jpg",
-    "_daily/2023/05/2023-05-02_周二.md",
     "temp/2023-05-01_周一.pdf",
-    "_daily/2023/05/2023-05-01_周一.md",
     "temp",
-    "assets/Pasted image 20230502024623.png",
     "assets",
     "Pasted image 20230502024558.png",
     "_daily/2023/04/2023-04-23_周日.md",
@@ -213,14 +231,8 @@
     "2023-04-23_周日.pdf",
     "README.md",
     "_tasks/Todo.md",
-    "2023-04-30_周日.md",
     "_daily/2023/05",
-    "templates/script/ss_new_post_draft.md",
     "templates/basic",
-    "_drafts/2023-04-23_01-04-18.md",
-    "templates/Todo.md",
-    "_drafts/2023-04-23_01-04-89.md",
-    "_drafts/2023-04-23_01-04-25.md",
     "_drafts",
     "_daily/2023/04",
     "_daily/2023",
@@ -230,10 +242,6 @@
     "_posts/coding-train/cover.jpg",
     "未命名 3.canvas",
     "未命名 1.canvas",
-    "未命名 2.canvas",
-    "_pages/about/index/布局练习.png",
-    "_pages/about/index/大作业演示.gif",
-    "_pages/about/index/todolist.png",
-    "_pages/about/index/ife_2021_st_6.jpg"
+    "未命名 2.canvas"
   ]
 }

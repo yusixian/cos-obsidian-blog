@@ -204,8 +204,6 @@ export const validateUniqueUser = async (req: RequestBody<Prisma.UserCreateInput
 
 现在存入数据库的密码便是经过加密的啦
 
-###
-
 ## 嵌入 apifox 在线接口文档等
 
 使用 [Express - art-template](https://aui.github.io/art-template/express/)
@@ -216,8 +214,8 @@ export const validateUniqueUser = async (req: RequestBody<Prisma.UserCreateInput
 yarn add art-template express-art-template
 ```
 
-
 在 `express` 中，有一个 `render()` 方法，一般情况下是不能用的，但配合这个模板引擎，就可以使用了
+
 - 用法：`render("文件名",{模板数据});`
 - 在 src 下新建 views 文件夹存放我们的视图
 
@@ -269,43 +267,210 @@ app.get('/', function (req, res) {
 yarn add cors
 ```
 
+## 设计数据库结构
+
+首先，列出可能需要的表和它们的字段：
+
+### 用户表 User
+
+| 字段名称  | 数据类型 | 长度 | 字段描述     | 其他说明                   |
+| --------- | -------- | ---- | ------------ | -------------------------- |
+| id        | int      |      | 主键id       |                            |
+| user_name | varchar  | 255  | 用户名       | 登录用户名，唯一           |
+| password  | varchar  | 255  | 登录密码     |                            |
+| type      | int      |      | 用户类型     | 0为普通用户，1为管理员用户 |
+| status    | int      |      | 用户状态     | 0为正常用户，1为被封禁用户 |
+| avatar    | varchar  | 255  | 用户头像     | 头像图片路径               |
+| city      | varchar  | 255  | 用户所在城市 |                            |
+| sex       | int      |      | 用户性别     | 0为未知，1为女，2为男      |
+| email     | varchar  | 255  | 用户邮箱     |                            |
+| name      | varchar  | 255  | 昵称         |                            |
+| createdAt | datetime | 3    | 用户创建时间 | Unix时间戳                 |
+| updatedAt | datetime | 3    | 记录更新时间 | Unix时间戳                 |
+
+### 音乐表 Music
+
+| 字段名称      | 数据类型 | 长度 | 字段描述     | 其他说明                                        |
+| ------------- | -------- | ---- | ------------ | ----------------------------------------------- |
+| id            | int      |      | 音乐id       | 主键                                            |
+| title         | varchar  | 255  | 音乐标题     |                                                 |
+| coverUrl      | varchar  | 255  | 封面图片路径 |                                                 |
+| url           | varchar  | 255  | 歌曲资源路径 | mp4文件                                         |
+| playCount     | bigint   |      | 播放量       |                                                 |
+| artist        | varchar  | 255  | 歌手名称     | 可能有不在该平台的歌手，直接写名字              |
+| artistId      | int      |      | 歌手id       | 若歌手在该平台，该字段为user_id                 |
+| lyric         | varchar  | 255  | lrc格式歌词  |                                                 |
+| lyricAuthorId | int      |      | 歌词贡献者id | 外键                                            |
+| status        | int      |      | 音乐状态     | 0为刚发布尚未审核，1为审核通过状态，2为封禁状态 |
+| createdAt     | datetime | 3    | 记录创建时间 | Unix时间戳                                      |
+| updatedAt     | datetime | 3    | 记录更新时间 | Unix时间戳                                      |
+| deletedAt     | datetime | 3    | 软删除时间   | Unix时间戳                                      |
+| categoryId    | int      |      | 所属分区id   | 外键                                            |
+
+### 歌单表 Playlist
+
+| 字段名称    | 数据类型 | 长度 | 字段描述       | 其他说明   |
+| ----------- | -------- | ---- | -------------- | ---------- |
+| id          | int      |      | 歌单id         | 主键       |
+| title       | varchar  | 255  | 歌单标题       |            |
+| description | varchar  | 255  | 歌单描述       |            |
+| coverUrl    | varchar  | 255  | 封面图片路径   |            |
+| creator     | int      |      | 该歌单创建者id | 外键       |
+| createdAt   | datetime | 3    | 创建时间       | Unix时间戳 |
+| updatedAt   | datetime | 3    | 记录更新时间   | Unix时间戳 |
+| deletedAt   | datetime | 3    | 软删除时间     | Unix时间戳 |
+
+### 标签表 Tag
+
+| 字段名称  | 数据类型 | 长度 | 字段描述      | 其他说明   |
+| --------- | -------- | ---- | ------------- | ---------- |
+| id        | int      |      | 标签id        | 主键       |
+| name      | varchar  | 255  | 标签名        |            |
+| icon      | varchar  | 255  | icon名称/句柄 | 可为空     |
+| createdAt | datetime | 3    | 创建时间      | Unix时间戳 |
+| updatedAt | datetime | 3    | 记录更新时间  | Unix时间戳 |
+
+### 分区表 Category
+
+| 字段名称    | 数据类型 | 长度 | 字段描述     | 其他说明   |
+| ----------- | -------- | ---- | ------------ | ---------- |
+| id          | int      |      | 分区id       | 主键       |
+| name        | varchar  | 255  | 分区名称     |            |
+| description | varchar  | 255  | 分区描述     |            |
+| coverUrl    | varchar  | 255  | 分区图片路径 |            |
+| createdAt   | datetime | 3    | 创建时间     | Unix时间戳 |
+| updatedAt   | datetime | 3    | 记录更新时间 | Unix时间戳 |
+
+### 评论表 Comment
+
+| 字段名称  | 数据类型 | 长度 | 字段描述       | 其他说明        |
+| --------- | -------- | ---- | -------------- | --------------- |
+| id        | int      |      | 评论id         | 主键            |
+| content   | varchar  | 255  | 评论内容       |                 |
+| userId    | int      |      | 评论者id       | 外键 User 表 id |
+| musicId   | int      |      | 被评论的音乐id | 外键 Music表 id |
+| createdAt | datetime | 3    | 创建时间       | Unix时间戳      |
+
+### 评论回复表 Reply
+
+| 字段名称  | 数据类型 | 长度 | 字段描述       | 其他说明          |
+| --------- | -------- | ---- | -------------- | ----------------- |
+| id        | int      |      | 评论回复id     | 主键              |
+| content   | varchar  | 255  | 回复内容       |                   |
+| commentId | int      |      | 回复的评论id   | 外键 Comment表 id |
+| userId    | int      |      | 评论者id       | 外键 User 表 id   |
+| musicId   | int      |      | 被评论的音乐id | 外键 Music表 id   |
+| createdAt | datetime | 3    | 创建时间       | Unix时间戳        |
+
+### 首页轮播信息表 Banner
+
+| 字段名称    | 数据类型 | 长度 | 字段描述       | 其他说明       |
+| ----------- | -------- | ---- | -------------- | -------------- |
+| id          | int      |      | 轮播图id       | 主键           |
+| title       | varchar  | 255  | 轮播图标题     |                |
+| description | varchar  | 255  | 轮播图描述     |                |
+| url         | varchar  | 255  | 轮播图片路径   |                |
+| status      | int      |      | 轮播图状态     | 0 正常，1 禁用 |
+| href        | varchar  | 255  | 轮播图跳转链接 |                |
+| createdAt   | datetime | 3    | 创建时间       | Unix时间戳     |
+| updatedAt   | datetime | 3    | 记录更新时间   | Unix时间戳     |
+
+### 多对多关系
+
+- [ ] 歌单和用户，一个用户可以有 N 个歌单，一个歌单可以被 N 个用户共享
+- [ ] 歌单和音乐，一个歌单可以有N个音乐，一个音乐可以被N个歌单收录
+- [X] 音乐和标签，一个音乐可以有 N 个标签，一个标签可以被 N 个音乐同时拥有 ✅ 2023-05-05
+- [X] 歌单和标签，一个歌单可以有 N 个标签，一个标签可以被 N 个歌单同时拥有 ✅ 2023-05-05
+
+### 一对多关系
+
+- [ ] 创建用户和歌单，一个用户可以创建 N 个歌单，一个歌单被一个用户创建
+- [ ] 用户和评论，一个用户可以发表多条评论，而一条评论只属于一个用户。
+- [ ] 分区和标签之间的关系是一对多，一个分区可以有多个标签，但一个标签只能属于一个分区
+- [ ] 音乐和评论之间的关系是一对多，一个音乐可以拥有多个评论，而每个评论只属于一个音乐。
+- [ ] 用户和评论回复之间的关系是一对多，一个用户可以回复多条评论，而一条评论回复只属于一个用户。
+- [ ] 评论和评论回复之间的关系是一对多，一个评论可能有多个评论回复，但一个评论回复只回复一个评论的。
+
+### 关联表
+
+#### 用户和歌单之间的关联表 (User_Playlist)
+
+- user_id: 外键，关联到用户表中的id字段
+- playlist_id: 外键，关联到歌单表中的id字段
+
+#### 歌单和音乐之间的关联表 (Playlist_Music)
+
+- playlist_id: 外键，关联到歌单表中的id字段
+- music_id: 外键，关联到音乐表中的id字段
+
+#### 音乐和标签之间的关联表 (Musics_Tag)
+
+- music_id: 外键，关联到音乐表中的id字段
+- tag_id: 外键，关联到标签表中的id字段
+
+#### 标签和分区之间的关联表 (Tag_Category)
+
+- tag_id: 外键，关联到音乐表中的id字段
+- category_id: 外键，关联到分区表中的id字段
+
+#### 用户和评论之间的关联表 (User_Comment)
+
+- user_id: 外键，关联到用户表中的id字段
+- comment_id: 外键，关联到评论表中的id字段
+
+#### 音乐和评论之间的关联表 (Music_Comment)
+
+- music_id: 外键，关联到音乐表中的id字段
+- comment_id: 外键，关联到评论表中的id字段
+
+#### 用户和评论回复之间的关联表 ( User_Reply )
+
+- user_id: 外键，关联到用户表中的id字段
+- reply_id: 外键，关联到评论回复表中的id字段
+
+#### 评论和评论回复之间的关联表 (Comment_Reply)
+
+- comment_id: 外键，关联到评论表中的id字段
+- reply_id: 外键，关联到评论回复表中的id字段
 
 ## 接口设计
 
 ### 项目 TODO
 
-#todo  
-- [x] 初始环境搭建
-- [ ] 功能设计
-- [ ] 数据库设计
+#todo
+
+- [X] 初始环境搭建
+- [X] 功能设计
+- [X] 数据库设计
 
 ### 功能模块 TODO
 
-#todo  
+#todo
+
 - [ ] ⏫ 普通用户模块
-  - [ ] ⏫ 注册 ing
-  - [ ] ⏫ 登录
-  - [ ] 修改用户信息
-  - [ ] 修改用户密码
+    - [ ] ⏫ 注册 ing
+    - [ ] ⏫ 登录
+    - [ ] 修改用户信息
+    - [ ] 修改用户密码
 - [ ] 管理员模块
-  - [ ] 注册 ing
-  - [ ] 登录
-  - [ ] 添加其他管理员/用户
-  - [ ] 修改所有用户信息
+    - [ ] 注册 ing
+    - [ ] 登录
+    - [ ] 添加其他管理员/用户
+    - [ ] 修改所有用户信息
 - [ ] 音乐模块
-  - [ ] ⏫ 查询音乐
-  - [ ] ⏫ 添加新音乐（管理员）
-  - [ ] ⏫ 删除音乐（管理员）
-  - [ ] 更新音乐信息（管理员）
+    - [ ] ⏫ 查询音乐
+    - [ ] ⏫ 添加新音乐（管理员）
+    - [ ] ⏫ 删除音乐（管理员）
+    - [ ] 更新音乐信息（管理员）
 - [ ] 歌单模块
-  - [ ] 查询歌单信息
-  - [ ] 添加新歌单
-  - [ ] 删除歌单（普通用户仅修改自己的）
-  - [ ] 更新歌单信息（普通用户仅修改自己的）
-- [ ] 标签模块 
-- [ ] 分区模块 
-  - [ ] 添加分区（自定义分区封面） 
-  - [ ] 删除分区 
+    - [ ] 查询歌单信息
+    - [ ] 添加新歌单
+    - [ ] 删除歌单（普通用户仅修改自己的）
+    - [ ] 更新歌单信息（普通用户仅修改自己的）
+- [ ] 标签模块
+- [ ] 分区模块
+    - [ ] 添加分区（自定义分区封面）
+    - [ ] 删除分区
 - [ ] 推荐模块
-  - [ ] 随机推荐
-  - [ ] 前 xxx 推荐
+    - [ ] 随机推荐
+    - [ ] 前 xxx 推荐
