@@ -474,3 +474,78 @@ yarn add cors
 - [ ] 推荐模块
     - [ ] 随机推荐
     - [ ] 前 xxx 推荐
+
+## pm2
+
+mac下 安装 pm2
+
+```bash
+npm install -g pm2
+```
+
+项目根目录 生成基础配置文件
+```bash
+pm2 init simple
+```
+
+生产文件 `ecosystem.config.js` 如下：
+
+```js
+module.exports = {
+  apps : [{
+    name   : "app1",
+    script : "./app.js"
+  }]
+}
+```
+
+改一下～
+
+```js
+module.exports = {
+  apps: [
+    {
+      name: 'app1',
+      script: './src/app.ts', // 换成咱项目里的入口文件～
+    },
+  ],
+};
+```
+
+启动、停止、重启、重载、删除配置文件中所有项目
+
+```bash
+pm2 start ecosystem.config.js
+pm2 stop ecosystem.config.js
+pm2 restart ecosystem.config.js
+pm2 reload ecosystem.config.js
+pm2 delete ecosystem.config.js
+```
+
+诶，启动提示 `[PM2][ERROR] Error: Interpreter /opt/homebrew/lib/node_modules/pm2/node_modules/.bin/ts-node is NOT AVAILABLE in PATH. (type 'which /opt/homebrew/lib/node_modules/pm2/node_modules/.bin/ts-node' to double check.)`
+
+好吧，没找到 `ts-node` ，配置文件中加上：
+
+```js
+module.exports = {
+  apps: [
+    {
+      name: 'app1',
+      script: './src/app.ts',
+      interpreter: './node_modules/.bin/ts-node', // +
+    },
+  ],
+};
+```
+
+再次 `pm2 start ecosystem.config.js` 好啦
+之后就可以是  `pm2 start app1` 了，很完美。
+
+`pm2 list` 可以查看所有app
+
+- `pm2 start app1` 启动
+- `pm2 log app1` 查看日志
+- `pm2 restart app1` 重启
+- `pm2 stop app1` 停止
+- `pm2 list` 查看
+

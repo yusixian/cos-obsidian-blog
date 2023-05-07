@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7d6e68f267b882b0",
+        "id": "9ea6d5a968bd6e1f",
         "type": "tabs",
         "children": [
           {
-            "id": "5a7ef83528fff93a",
+            "id": "8c76fbc1c2d4f3b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2023/05/2023-05-05_周五.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#今日小结",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2023/05/2023-05-05_周五.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2023/05/2023-05-05_周五.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2023/05/2023-05-05_周五.md"
+                "file": "README.md"
               }
             }
           },
@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,19 +191,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5a7ef83528fff93a",
+  "active": "8c76fbc1c2d4f3b6",
   "lastOpenFiles": [
+    "templates/script/ss_new_post_draft.md",
+    "_daily/2023/05/2023-05-07_周日.md",
+    "assets/Pasted image 20230508000702.png",
+    "_daily/2023/05/2023-05-06_周六.md",
     "_daily/2023/05/2023-05-05_周五.md",
+    "_daily/2023/05/2023-05-12_周五.md",
+    "templates/script/ss_cos-daily.md",
+    "_daily/2023/05/Invalid date.md",
+    "未命名.md",
+    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
+    "_daily/2023/05/2023-05-10_周三.md",
+    "_daily/2023/05/2023-05-09_周二.md",
+    "_daily/2023/05/2023-05-03_周三.md",
+    "未命名 1.md",
+    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
     "assets/Pasted image 20230505184138.png",
     "_daily/2023/05/2023-05-04_周四.md",
     "_drafts/致  谢.md",
     "_drafts/Floating UI 使用经验分享 - Dialog.md",
-    "未命名 1.md",
-    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
-    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
     "_posts/project/仿Antd组件之DatePicker组件实现.md",
-    "_daily/2023/05/2023-05-03_周三.md",
-    "未命名.md",
     "assets/Pasted image 20230504031827.png",
     "assets/Pasted image 20230504031829.png",
     "assets/Pasted image 20230502024623.png",
@@ -216,21 +224,13 @@
     "_drafts/Floating UI 使用经验分享 - Popover 1.md",
     "_drafts/这是一篇测试文章.md",
     "_posts/tools/vercel部署Hexo博客.md",
-    "_posts/tools/Hexo主题Shoka配置.md",
-    "_posts/tools/Hexo迁移xlog有感.md",
     "_posts/tools/cover.jpg",
     "temp/2023-05-01_周一.pdf",
     "temp",
     "assets",
     "Pasted image 20230502024558.png",
-    "_daily/2023/04/2023-04-23_周日.md",
-    "templates/script/ss_cos-daily.md",
-    "templates/basic/table.md",
     "2023-05-01_周一.pdf",
-    "2023-05-03_周三.md",
     "2023-04-23_周日.pdf",
-    "README.md",
-    "_tasks/Todo.md",
     "_daily/2023/05",
     "templates/basic",
     "_drafts",
@@ -239,7 +239,6 @@
     "_posts/note/cover.jpg",
     "Pasted image 20230420122717.png",
     "未命名.canvas",
-    "_posts/coding-train/cover.jpg",
     "未命名 3.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas"
