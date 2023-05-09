@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9ea6d5a968bd6e1f",
+        "id": "1feaa46fd5117491",
         "type": "tabs",
         "children": [
           {
-            "id": "8c76fbc1c2d4f3b6",
+            "id": "8ded52196e6e6f00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_posts/project/cosine-music/cosine-music 后端搭建文档.md"
               }
             }
           },
@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 295.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,25 +191,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c76fbc1c2d4f3b6",
+  "active": "33596a972eedfbaf",
   "lastOpenFiles": [
-    "templates/script/ss_new_post_draft.md",
-    "_daily/2023/05/2023-05-07_周日.md",
-    "assets/Pasted image 20230508000702.png",
-    "_daily/2023/05/2023-05-06_周六.md",
+    "_tasks/Todo.md",
+    "_daily/2023/05/2023-05-04_周四.md",
     "_daily/2023/05/2023-05-05_周五.md",
+    "_daily/2023/05/2023-05-06_周六.md",
+    "_daily/2023/05/2023-05-07_周日.md",
+    "_daily/2023/05/2023-05-08_周一.md",
+    "_tasks/Idea.md",
+    "_daily/2023/05/2023-05-09_周二.md",
     "_daily/2023/05/2023-05-12_周五.md",
-    "templates/script/ss_cos-daily.md",
-    "_daily/2023/05/Invalid date.md",
     "未命名.md",
     "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
     "_daily/2023/05/2023-05-10_周三.md",
-    "_daily/2023/05/2023-05-09_周二.md",
+    "assets/Pasted image 20230509020707.png",
+    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
+    "README.md",
+    "templates/script/ss_new_post_draft.md",
+    "assets/Pasted image 20230508000702.png",
+    "templates/script/ss_cos-daily.md",
+    "_daily/2023/05/Invalid date.md",
     "_daily/2023/05/2023-05-03_周三.md",
     "未命名 1.md",
-    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
     "assets/Pasted image 20230505184138.png",
-    "_daily/2023/05/2023-05-04_周四.md",
     "_drafts/致  谢.md",
     "_drafts/Floating UI 使用经验分享 - Dialog.md",
     "_posts/project/仿Antd组件之DatePicker组件实现.md",
@@ -221,9 +226,6 @@
     "_posts/project/Campus SNS校园社区后端接口开发.md",
     "assets/20230503041829_rec_.gif",
     "_posts/note/front-end/Floating UI 使用经验分享 - Popover.md",
-    "_drafts/Floating UI 使用经验分享 - Popover 1.md",
-    "_drafts/这是一篇测试文章.md",
-    "_posts/tools/vercel部署Hexo博客.md",
     "_posts/tools/cover.jpg",
     "temp/2023-05-01_周一.pdf",
     "temp",
@@ -237,7 +239,6 @@
     "_daily/2023/04",
     "_daily/2023",
     "_posts/note/cover.jpg",
-    "Pasted image 20230420122717.png",
     "未命名.canvas",
     "未命名 3.canvas",
     "未命名 1.canvas",

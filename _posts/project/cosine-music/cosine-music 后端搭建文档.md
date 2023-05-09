@@ -447,21 +447,23 @@ yarn add cors
 
 #todo
 
-- [ ] ⏫ 普通用户模块
-    - [ ] ⏫ 注册 ing
-    - [ ] ⏫ 登录
+- [x] ⏫ 普通用户模块 ✅ 2023-05-10
+    - [x] ⏫ 注册 ing ✅ 2023-05-10
+    - [x] ⏫ 登录 ✅ 2023-05-10
     - [ ] 修改用户信息
     - [ ] 修改用户密码
+    - [ ] 历史听歌记录
 - [ ] 管理员模块
     - [ ] 注册 ing
-    - [ ] 登录
+    - [x] 登录 ✅ 2023-05-10
     - [ ] 添加其他管理员/用户
     - [ ] 修改所有用户信息
 - [ ] 音乐模块
-    - [ ] ⏫ 查询音乐
-    - [ ] ⏫ 添加新音乐（管理员）
-    - [ ] ⏫ 删除音乐（管理员）
-    - [ ] 更新音乐信息（管理员）
+    - [ ] ⏫ 查询音乐
+    - [ ] ⏫ 添加新音乐（管理员）
+    - [ ] ⏫ 删除音乐（管理员）
+        - [x] 上传音乐封面 ✅ 2023-05-10
+    - [ ] 更新音乐信息（管理员）
 - [ ] 歌单模块
     - [ ] 查询歌单信息
     - [ ] 添加新歌单
@@ -475,7 +477,7 @@ yarn add cors
     - [ ] 随机推荐
     - [ ] 前 xxx 推荐
 
-## pm2
+## 配置 pm2
 
 mac下 安装 pm2
 
@@ -549,3 +551,27 @@ module.exports = {
 - `pm2 stop app1` 停止
 - `pm2 list` 查看
 
+## 配置七牛云上传
+
+官网：[七牛云上传下载操作指南 - 七牛开发者中心](https://developer.qiniu.com/kodo/kb/1336/upload-download-instructions)
+- [node+vue实现文件服务端上传直传七牛云服务器 - 简书](https://www.jianshu.com/p/303d2aa017c2)
+
+
+首先编写一个上传图片的接口，express中需要使用 [Express multer middleware](http://expressjs.com/en/resources/middleware/multer.html) 解析：
+
+```sh
+yarn add multer
+```
+
+上传文件的接口中加上中间件 `upload.single('file')`
+则可以通过请求 body 中的 file 字段取到文件，如图：
+
+œ
+
+### 安装 qiniu
+
+```bash
+yarn add qiniuœœ
+```
+
+œ
