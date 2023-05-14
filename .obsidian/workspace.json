@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6e866fb244062dd4",
+        "id": "f2fb160ea39844d9",
         "type": "tabs",
         "children": [
           {
-            "id": "6837759b15cfffe3",
+            "id": "905e919fbe423fb8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 295.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,10 +184,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6837759b15cfffe3",
+  "active": "905e919fbe423fb8",
   "lastOpenFiles": [
+    "_daily/2023/05/2023-05-15_周一.md",
+    "_daily/2023/05/2023-05-14_周日.md",
+    "_daily/2023/05/2023-05-13_周六.md",
+    "assets/Pasted image 20230515015906.png",
+    "assets/Pasted image 20230515014817.png",
+    "assets/Pasted image 20230515014702.png",
+    "未命名.md",
+    "assets/Pasted image 20230513030124.png",
     "_daily/2023/05/2023-05-12_周五.md",
     "_daily/2023/05/2023-05-11_周四.md",
+    "assets/Pasted image 20230513003758.png",
     "_daily/2023/05/2023-05-10_周三.md",
     "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
     "assets/Pasted image 20230512034811.png",
@@ -198,7 +208,6 @@
     "_daily/2023/05/2023-05-07_周日.md",
     "_daily/2023/05/2023-05-08_周一.md",
     "_tasks/Idea.md",
-    "未命名.md",
     "assets/Pasted image 20230509020707.png",
     "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
     "README.md",
@@ -213,16 +222,9 @@
     "_drafts/Floating UI 使用经验分享 - Dialog.md",
     "_posts/project/仿Antd组件之DatePicker组件实现.md",
     "assets/Pasted image 20230504031827.png",
-    "assets/Pasted image 20230504031829.png",
-    "assets/Pasted image 20230502024623.png",
-    "_daily/2023/05/2023-05-01_周一.md",
-    "_daily/2023/05/2023-05-02_周二.md",
-    "assets/20230503041829_rec_.gif",
-    "_posts/tools/cover.jpg",
     "temp/2023-05-01_周一.pdf",
     "temp",
     "assets",
-    "Pasted image 20230502024558.png",
     "2023-05-01_周一.pdf",
     "2023-04-23_周日.pdf",
     "_daily/2023/05",
