@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f2fb160ea39844d9",
+        "id": "00a6bebd1f27b11e",
         "type": "tabs",
         "children": [
           {
-            "id": "905e919fbe423fb8",
+            "id": "befabbda57cd5140",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_daily/2023/05/2023-05-18_周四.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_daily/2023/05/2023-05-18_周四.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_daily/2023/05/2023-05-18_周四.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_daily/2023/05/2023-05-18_周四.md"
+              }
             }
           },
           {
@@ -162,12 +170,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,22 +191,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "905e919fbe423fb8",
+  "active": "befabbda57cd5140",
   "lastOpenFiles": [
-    "_daily/2023/05/2023-05-15_周一.md",
+    "assets/Pasted image 20230518031738.png",
+    "_daily/2023/05/2023-05-17_周三.md",
+    "_daily/2023/05/2023-05-18_周四.md",
+    "assets/Pasted image 20230518014408.png",
+    "assets/Pasted image 20230518014319.png",
+    "assets/Pasted image 20230518014313.png",
+    "assets/Pasted image 20230517223411.png",
+    "未命名.md",
+    "README.md",
+    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
     "_daily/2023/05/2023-05-14_周日.md",
+    "assets/Pasted image 20230517223320.png",
+    "assets/Pasted image 20230517201544.png",
+    "assets/Pasted image 20230517201513.png",
+    "_daily/2023/05/2023-05-16_周二.md",
+    "assets/Pasted image 20230517002118.png",
+    "_daily/2023/05/2023-05-15_周一.md",
     "_daily/2023/05/2023-05-13_周六.md",
     "assets/Pasted image 20230515015906.png",
     "assets/Pasted image 20230515014817.png",
-    "assets/Pasted image 20230515014702.png",
-    "未命名.md",
-    "assets/Pasted image 20230513030124.png",
     "_daily/2023/05/2023-05-12_周五.md",
     "_daily/2023/05/2023-05-11_周四.md",
-    "assets/Pasted image 20230513003758.png",
     "_daily/2023/05/2023-05-10_周三.md",
-    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
-    "assets/Pasted image 20230512034811.png",
     "_daily/2023/05/2023-05-09_周二.md",
     "_tasks/Todo.md",
     "_daily/2023/05/2023-05-04_周四.md",
@@ -208,20 +224,11 @@
     "_daily/2023/05/2023-05-07_周日.md",
     "_daily/2023/05/2023-05-08_周一.md",
     "_tasks/Idea.md",
-    "assets/Pasted image 20230509020707.png",
     "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
-    "README.md",
     "templates/script/ss_new_post_draft.md",
-    "assets/Pasted image 20230508000702.png",
     "templates/script/ss_cos-daily.md",
     "_daily/2023/05/Invalid date.md",
     "_daily/2023/05/2023-05-03_周三.md",
-    "未命名 1.md",
-    "assets/Pasted image 20230505184138.png",
-    "_drafts/致  谢.md",
-    "_drafts/Floating UI 使用经验分享 - Dialog.md",
-    "_posts/project/仿Antd组件之DatePicker组件实现.md",
-    "assets/Pasted image 20230504031827.png",
     "temp/2023-05-01_周一.pdf",
     "temp",
     "assets",
