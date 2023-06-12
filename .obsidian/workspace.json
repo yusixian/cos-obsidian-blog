@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "31e4cfe92befe151",
+    "id": "c3f80b2697e03c33",
     "type": "split",
     "children": [
       {
-        "id": "00a6bebd1f27b11e",
+        "id": "90fbe15454c99014",
         "type": "tabs",
         "children": [
           {
-            "id": "befabbda57cd5140",
+            "id": "dfdddf5af924fdc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2023/05/2023-05-18_周四.md",
+                "file": "_daily/2023/06/2023-06-12_周一.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ef292805de7e982c",
+    "id": "1dc34d67fee96f6e",
     "type": "split",
     "children": [
       {
-        "id": "5ebcb7b86555f01e",
+        "id": "279822a1f138cb16",
         "type": "tabs",
         "children": [
           {
-            "id": "591d76724f2ebb59",
+            "id": "f72be9167db32bee",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "43429f41dcf58e58",
+            "id": "53823efa6111cd07",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,15 +58,7 @@
             }
           },
           {
-            "id": "1030d92fe6f6de41",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "8ba566610c2929bf",
+            "id": "aea8fcd7cc33bcdb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,39 +69,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "e71dd17bfcbab262",
+    "id": "9a7768998386359a",
     "type": "split",
     "children": [
       {
-        "id": "9f037a8aa280365f",
+        "id": "94bdc19eb7c4de3b",
         "type": "tabs",
-        "dimension": 37.38977072310406,
         "children": [
           {
-            "id": "fc3aa41c2e0e39e4",
+            "id": "01aab9df4e1e17bb",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "c3344a894a0503f6",
-        "type": "tabs",
-        "dimension": 62.61022927689594,
-        "children": [
+          },
           {
-            "id": "30c577b978d5c1a6",
+            "id": "c38e25f1166326f1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2023/05/2023-05-18_周四.md",
+                "file": "_daily/2023/06/2023-06-12_周一.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,19 +105,19 @@
             }
           },
           {
-            "id": "d8e2e533b74703af",
+            "id": "c5a243e3422cc213",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2023/05/2023-05-18_周四.md",
+                "file": "_daily/2023/06/2023-06-12_周一.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "aaee74e0b5f79498",
+            "id": "93b6672dae15259d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,25 +128,17 @@
             }
           },
           {
-            "id": "091709c43a770c98",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "33596a972eedfbaf",
+            "id": "741255c1038b922e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2023/05/2023-05-18_周四.md"
+                "file": "_daily/2023/06/2023-06-12_周一.md"
               }
             }
           },
           {
-            "id": "9242a2fa5587d862",
+            "id": "fd9a7a6c64e221c2",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -174,74 +150,71 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": true,
-      "canvas:新建白板": true,
-      "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
-      "command-palette:打开命令面板": false,
-      "graph:查看关系图谱": false,
-      "workspaces:管理工作区布局": false,
-      "random-note:开始漫游笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "befabbda57cd5140",
+  "active": "dfdddf5af924fdc8",
   "lastOpenFiles": [
-    "assets/Pasted image 20230518031738.png",
-    "_daily/2023/05/2023-05-17_周三.md",
-    "_daily/2023/05/2023-05-18_周四.md",
-    "assets/Pasted image 20230518014408.png",
-    "assets/Pasted image 20230518014319.png",
-    "assets/Pasted image 20230518014313.png",
-    "assets/Pasted image 20230517223411.png",
-    "未命名.md",
+    "assets/Pasted image 20230612182012.png",
+    "_drafts/致  谢.md",
+    "_daily/2023/06",
+    "_daily/2023/06/2023-06-12_周一.md",
+    "_drafts/Floating UI 使用经验分享 - Dialog.md",
     "README.md",
-    "_posts/project/cosine-music/cosine-music 后端搭建文档.md",
-    "_daily/2023/05/2023-05-14_周日.md",
+    "templates/script/ss_new_post_draft.md",
+    "templates/script/ss_cos-daily.md",
+    "templates/basic/table.md",
+    "templates/script",
+    "templates/basic",
+    "templates",
+    "assets/Pasted image 20230518031738.png",
+    "assets/Pasted image 20230518014408.png",
+    "assets/Pasted image 20230517223411.png",
     "assets/Pasted image 20230517223320.png",
     "assets/Pasted image 20230517201544.png",
     "assets/Pasted image 20230517201513.png",
-    "_daily/2023/05/2023-05-16_周二.md",
     "assets/Pasted image 20230517002118.png",
-    "_daily/2023/05/2023-05-15_周一.md",
-    "_daily/2023/05/2023-05-13_周六.md",
     "assets/Pasted image 20230515015906.png",
     "assets/Pasted image 20230515014817.png",
-    "_daily/2023/05/2023-05-12_周五.md",
-    "_daily/2023/05/2023-05-11_周四.md",
-    "_daily/2023/05/2023-05-10_周三.md",
-    "_daily/2023/05/2023-05-09_周二.md",
-    "_tasks/Todo.md",
-    "_daily/2023/05/2023-05-04_周四.md",
-    "_daily/2023/05/2023-05-05_周五.md",
-    "_daily/2023/05/2023-05-06_周六.md",
-    "_daily/2023/05/2023-05-07_周日.md",
-    "_daily/2023/05/2023-05-08_周一.md",
-    "_tasks/Idea.md",
-    "_posts/project/cosine-music/cosine-music 前端搭建文档.md",
-    "templates/script/ss_new_post_draft.md",
-    "templates/script/ss_cos-daily.md",
-    "_daily/2023/05/Invalid date.md",
-    "_daily/2023/05/2023-05-03_周三.md",
-    "temp/2023-05-01_周一.pdf",
-    "temp",
+    "assets/Pasted image 20230515014702.png",
     "assets",
-    "2023-05-01_周一.pdf",
-    "2023-04-23_周日.pdf",
-    "_daily/2023/05",
-    "templates/basic",
-    "_drafts",
-    "_daily/2023/04",
-    "_daily/2023",
-    "未命名.canvas",
-    "未命名 3.canvas",
-    "未命名 1.canvas",
-    "未命名 2.canvas"
+    "_tasks/Todo.md",
+    "_tasks/Idea.md",
+    "_tasks",
+    "_posts/tools/小爱课程表.md",
+    "_posts/tools/vercel部署Hexo博客.md",
+    "_posts/tools/Hexo迁移xlog有感.md",
+    "_posts/tools/Hexo博客url优化.md",
+    "_posts/tools/Hexo主题Shoka配置.md",
+    "_posts/tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md",
+    "_posts/tools/2022前端vscode插件推荐.md",
+    "_posts/tools",
+    "_posts/review/interview/2022春暑期实习网易严选前端面经.md",
+    "_posts/review/interview/2022春暑期实习店匠一二面前端面经.md",
+    "_posts/review/interview/2022春字节前端一面暑期实习凉经.md",
+    "_posts/review/interview/2022春MetaApp暑期实习一二面面经.md",
+    "_posts/review/exam-record/2022春美团笔试暑期实习笔试题复盘.md",
+    "_posts/review/exam-record/2022春网易雷火前端暑期实习笔试.md",
+    "_posts/review/exam-record/2022春网易互联网前端暑期实习笔试.md",
+    "_posts/review/exam-record/2022春京东前端笔试题目复盘.md",
+    "_posts/review/exam-record/2022春360笔试题目复盘-研发E卷.md",
+    "_posts/review/interview",
+    "_posts/review/exam-record",
+    "_posts/review"
   ]
 }
