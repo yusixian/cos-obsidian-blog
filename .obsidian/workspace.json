@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3e1be08e65a7e0c7",
+        "id": "f72c38a6be2a408a",
         "type": "tabs",
         "children": [
           {
-            "id": "606c3a87c8b01883",
+            "id": "5db11b2cb2b16dd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/Nest 学习记录（一） 了解、安装与使用.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/Nest 学习记录（一） 了解、安装与使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_drafts/Nest 学习记录（一） 了解、安装与使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_drafts/Nest 学习记录（一） 了解、安装与使用.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,35 +159,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "606c3a87c8b01883",
+  "active": "5db11b2cb2b16dd5",
   "lastOpenFiles": [
+    "_posts/note/front-end/2023  前端人的 RN 学习小记.md",
+    "assets/Screenshot_2023-06-20-14-37-23-383_host.exp.expon.jpg",
+    "assets/Screenshot_2023-06-20-14-37-42-694_host.exp.expon.jpg",
+    "assets/Pasted image 20230620142037.png",
+    "assets/Pasted image 20230620141904.png",
+    "assets/Pasted image 20230620140815.png",
+    "assets/Pasted image 20230620141725.png",
+    "assets/Pasted image 20230620141558.png",
+    "_daily/2023/06/2023-06-16_周五.md",
+    "_drafts/Flutter 学习小记.md",
+    "_drafts/Nest 学习记录（一） 了解、安装与使用.md",
+    "Screenshot_2023-06-20-14-37-42-694_host.exp.expon 1.jpg.md",
+    "assets/Screenshot_2023-06-20-14-37-42-694_host.exp.expon 1.jpg",
+    "Pasted image 20230620140008.png.md",
+    "assets/Pasted image 20230620140008.png",
     "_posts/note/front-end/Floating UI 使用经验分享 - Dialog.md",
+    "templates/script/ss_new_post_draft.md",
+    "templates/script/ss_cos-daily.md",
     "_drafts/致  谢.md",
     "_posts/note/front-end/Floating UI 使用经验分享 - Popover.md",
     "assets/Pasted image 20230616145507.png",
     "Pasted image 20230616145237.png.md",
-    "_drafts/Nest 学习记录（一） 了解、安装与使用.md",
-    "assets/20230503041829_rec_.gif",
-    "assets/Pasted image 20230616145416.png",
-    "_daily/2023/06/2023-06-16_周五.md",
-    "assets/Pasted image 20230616145237.png",
     "_posts/note/bytedance-note/nodejs-develop.md",
     "_posts/review/interview/2022春MetaApp暑期实习一二面面经.md",
     "_daily/2023/06/2023-06-12_周一.md",
-    "assets/Pasted image 20230612182012.png",
     "_daily/2023/06",
     "README.md",
-    "templates/script/ss_new_post_draft.md",
-    "templates/script/ss_cos-daily.md",
     "templates/basic/table.md",
     "templates/script",
     "templates/basic",
     "templates",
-    "assets/Pasted image 20230518031738.png",
-    "assets/Pasted image 20230518014408.png",
-    "assets/Pasted image 20230517223411.png",
-    "assets/Pasted image 20230517223320.png",
-    "assets/Pasted image 20230517201544.png",
     "assets",
     "_tasks/Todo.md",
     "_tasks/Idea.md",
@@ -206,11 +202,7 @@
     "_posts/tools/Hexo博客url优化.md",
     "_posts/tools/Hexo主题Shoka配置.md",
     "_posts/tools/Backblaze + Cloudflare + Picgo 打造免费顺畅的图床体验.md",
-    "_posts/tools/2022前端vscode插件推荐.md",
     "_posts/tools",
-    "_posts/review/interview/2022春暑期实习网易严选前端面经.md",
-    "_posts/review/interview/2022春暑期实习店匠一二面前端面经.md",
-    "_posts/review/interview/2022春字节前端一面暑期实习凉经.md",
     "_posts/review/interview",
     "_posts/review/exam-record",
     "_posts/review"

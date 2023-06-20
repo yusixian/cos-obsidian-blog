@@ -9,7 +9,7 @@ tags:
 - 后端
 - node
 categories:
-- 前端   
+- [笔记, 前端]
 ---
 %% #nest  #前端 #后端 #node  %%
 
