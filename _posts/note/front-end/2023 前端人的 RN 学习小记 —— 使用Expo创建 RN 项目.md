@@ -1,12 +1,12 @@
 ---
-title:  RN 学习小记
-link: react-native-note-1
+title:  2023 前端人的 RN 学习小记 —— 使用Expo创建 RN 项目
+link: react-native-note-2023
 catalog: true
 date: 2023-06-20 01:33:00
 tags:
 - react-native
--  跨端
--  前端
+- 跨端
+- 前端
 categories:
 - [笔记, 前端]
 ---
@@ -28,35 +28,12 @@ categories:
 - 博文
     - [📝 没 2 年 React Native 开发经验，你都遇不到这些坑 - 掘金](https://juejin.cn/post/7012804162249293854) 
 
-### Expo推荐配合库
-
-- 安全区域库 [react-native-safe-area-context](https://docs.expo.dev/develop/user-interface/safe-areas/)
-    - `react-native-safe-area-context` 提供了一个灵活的 API，用于访问 Android 和 iOS 的设备安全区域插入信息。它还提供了一个 SafeAreaView 组件，您可以使用该组件代替 View 来插入视图以自动考虑安全区域。
-- 动画库 [react-native-reanimated](https://docs.expo.dev/develop/user-interface/animation/) 
-    - 在您的 Expo 项目中，您可以使用 React Native 的动画 API。然而，如果你想使用性能更好的更高级的动画，你可以使用 `react-native-reanimated` 库。它提供了一个 API，可以简化创建流畅、强大且可维护的动画的过程。
-- 存储数据 [Store data - Expo Documentation](https://docs.expo.dev/develop/user-interface/store-data/)
-    - `expo-secure-store` 提供了一种在设备本地加密和安全存储键值对的方法。
-
-[开始使用React Native和Expo SDK - 掘金](https://juejin.cn/post/7067103345361567775)
-- [AppAuth](https://docs.expo.io/versions/v34.0.0/sdk/app-auth/)，[AuthSession](https://docs.expo.io/versions/v34.0.0/sdk/auth-session/)：通过OAuth对用户进行认证
-- [SplashScreen](https://docs.expo.io/versions/v34.0.0/sdk/splash-screen/)：在启动应用程序时制作一个闪屏（官方文档）
-- [localization](https://docs.expo.io/versions/v34.0.0/sdk/localization/) 管理你的应用程序的l10n/i18n，以达到本地化的目的 
-- [AppLoading](https://docs.expo.io/versions/v34.0.0/sdk/app-loading/)：加载资产、字体等。
-- [MapView](https://docs.expo.io/versions/v34.0.0/sdk/map-view/)：在应用程序中使用地图
-- [ImagePicker](https://docs.expo.io/versions/v34.0.0/sdk/imagepicker/) or [ImageManipulator](https://docs.expo.io/versions/v34.0.0/sdk/imagemanipulator/) ：从设备上打开图像或视频
-- [Sharing](https://docs.expo.io/versions/v34.0.0/sdk/sharing/)：在应用程序和设备之间共享数据
-- [SecureStore](https://docs.expo.io/versions/v34.0.0/sdk/securestore/): 在设备存储器上保存数据
-- [Camera](https://docs.expo.io/versions/v34.0.0/sdk/camera/): 使用设备的摄像头拍摄照片和视频 
-- [Notifications](https://link.juejin.cn?target=https%3A%2F%2Fdocs.expo.io%2Fversions%2Fv34.0.0%2Fsdk%2Fnotifications%2F "https://docs.expo.io/versions/v34.0.0/sdk/notifications/")：来自 Expo 推送服务的推送通知 
-
-
 ## 学习路线
 
 - [x] 了解 & 认知 ✅ 2023-06-20
 - [x] 搭建开发环境 ✅ 2023-06-20
 - [x] 运行demo ✅ 2023-06-20
 - [x] 阅读相关博文，了解可能有用的库 & 踩坑经验 ✅ 2023-06-20
-- [ ] 
 
 ## 开发环境
 
@@ -108,9 +85,9 @@ eg: `C:\Users\xxxx\AppData\Local\Android\Sdk`
 ![[Pasted image 20230620141904.png]]
 ![[Pasted image 20230620142037.png]]
 
-### 使用 Expo 
+## 使用 Expo 
 
-#### 为什么用 Expo ？
+### 为什么用 Expo ？
 
 >Expo是一组工具、库和服务，可以通过编写JavaScript来构建本地的iOS和android应用程序。说人话，就是在React Native的基础上再封装了一层，让我们的开发更方便，更快速。 \
 >   ——[<cite>React Native 基于Expo开发（一）项目搭建 - 掘金</cite>](https://juejin.cn/post/7102802785355169806) 
@@ -120,7 +97,11 @@ eg: `C:\Users\xxxx\AppData\Local\Android\Sdk`
 
 接下来将根据官网教程，搭建一个Expo的应用程序： [Create your first app - Expo Documentation](https://docs.expo.dev/tutorial/create-your-first-app/)
 
-## Expo 示例项目
+### 安装 Expo Go 
+- 在物理设备上安装 Expo Go。（[Google Play / App Store](https://expo.dev/client)）
+- 通过安装 [所需的工具](https://docs.expo.dev/get-started/installation/#requirements) 为开发做准备。
+
+### 初始化 Expo 示例项目并启动
 
 使用 `create-expo-app` 来初始化一个新的 Expo 应用程序。它是一个命令行工具，允许创建一个安装了 `expo` 包的新 React Native 项目。
 
@@ -131,13 +112,9 @@ cd StickerSmash
 
 > 在官方文档里下载演示项目所需的图片等静态资源，将项目中的 assets 替换： [Download assets](https://docs.expo.dev/static/images/tutorial/sticker-smash-assets.zip)
 
-现在，让我们在我们最喜欢的代码编辑器或 IDE 中打开项目目录。在本教程中，我们将使用 VS Code 作为示例。
-
-### 项目启动
-
 - [Install dependencies 安装依赖](https://docs.expo.dev/tutorial/create-your-first-app/#install-dependencies)
 
-要在 Web 上运行该项目，我们需要安装以下有助于在 Web 上运行该项目的依赖项：
+要在 Web 上运行该项目，我们还需要安装以下有助于在 Web 上运行该项目的依赖项：
 ```bash
 npx expo install react-dom react-native-web @expo/webpack-config
 ```
@@ -146,6 +123,30 @@ npx expo install react-dom react-native-web @expo/webpack-config
 ```bash
 npx expo start
 ```
+
+通过 Expo Go 扫码或输入url（局域网连接同一个wifi的情况下）即可在手机上看到项目，保存后及时刷新
+
 | Scan QR code                                               | 启动成功                                                   |     |
 | ---------------------------------------------------------- | ---------------------------------------------------------- | --- |
 | ![[Screenshot_2023-06-20-14-37-42-694_host.exp.expon.jpg]] | ![[Screenshot_2023-06-20-14-37-23-383_host.exp.expon.jpg]] | 
+
+### Expo推荐配合库
+
+- 安全区域库 [react-native-safe-area-context](https://docs.expo.dev/develop/user-interface/safe-areas/)
+    - `react-native-safe-area-context` 提供了一个灵活的 API，用于访问 Android 和 iOS 的设备安全区域插入信息。它还提供了一个 SafeAreaView 组件，您可以使用该组件代替 View 来插入视图以自动考虑安全区域。
+- 动画库 [react-native-reanimated](https://docs.expo.dev/develop/user-interface/animation/) 
+    - 在您的 Expo 项目中，您可以使用 React Native 的动画 API。然而，如果你想使用性能更好的更高级的动画，你可以使用 `react-native-reanimated` 库。它提供了一个 API，可以简化创建流畅、强大且可维护的动画的过程。
+- 存储数据 [Store data - Expo Documentation](https://docs.expo.dev/develop/user-interface/store-data/)
+    - `expo-secure-store` 提供了一种在设备本地加密和安全存储键值对的方法。
+
+[开始使用React Native和Expo SDK - 掘金](https://juejin.cn/post/7067103345361567775)
+- [AppAuth](https://docs.expo.io/versions/v34.0.0/sdk/app-auth/)，[AuthSession](https://docs.expo.io/versions/v34.0.0/sdk/auth-session/)：通过OAuth对用户进行认证
+- [SplashScreen](https://docs.expo.io/versions/v34.0.0/sdk/splash-screen/)：在启动应用程序时制作一个闪屏（官方文档）
+- [localization](https://docs.expo.io/versions/v34.0.0/sdk/localization/) 管理你的应用程序的l10n/i18n，以达到本地化的目的 
+- [AppLoading](https://docs.expo.io/versions/v34.0.0/sdk/app-loading/)：加载资产、字体等。
+- [MapView](https://docs.expo.io/versions/v34.0.0/sdk/map-view/)：在应用程序中使用地图
+- [ImagePicker](https://docs.expo.io/versions/v34.0.0/sdk/imagepicker/) or [ImageManipulator](https://docs.expo.io/versions/v34.0.0/sdk/imagemanipulator/) ：从设备上打开图像或视频
+- [Sharing](https://docs.expo.io/versions/v34.0.0/sdk/sharing/)：在应用程序和设备之间共享数据
+- [SecureStore](https://docs.expo.io/versions/v34.0.0/sdk/securestore/): 在设备存储器上保存数据
+- [Camera](https://docs.expo.io/versions/v34.0.0/sdk/camera/): 使用设备的摄像头拍摄照片和视频 
+- [Notifications](https://link.juejin.cn?target=https%3A%2F%2Fdocs.expo.io%2Fversions%2Fv34.0.0%2Fsdk%2Fnotifications%2F "https://docs.expo.io/versions/v34.0.0/sdk/notifications/")：来自 Expo 推送服务的推送通知 
