@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "083a0682cd20b1d9",
+        "id": "ea176af4721e0d54",
         "type": "tabs",
         "children": [
           {
-            "id": "8b41a8b91307fd48",
+            "id": "a58c173cda7b3413",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tasks/Todo.md",
+                "file": "_drafts/NestJS 小记之优秀项目分析与模块实践.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tasks/Todo.md",
+                "file": "_drafts/NestJS 小记之优秀项目分析与模块实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tasks/Todo.md",
+                "file": "_drafts/NestJS 小记之优秀项目分析与模块实践.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_tasks/Todo.md"
+                "file": "_drafts/NestJS 小记之优秀项目分析与模块实践.md"
               }
             }
           },
@@ -142,6 +142,14 @@
             "type": "leaf",
             "state": {
               "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "7328118c356ea3e9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -167,14 +175,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8b41a8b91307fd48",
+  "active": "a58c173cda7b3413",
   "lastOpenFiles": [
+    "_drafts/Nest 学习记录（一） 了解、安装与使用.md",
+    "_drafts/Flutter 学习小记.md",
+    "_drafts/NestJS 小记之优秀项目分析与模块实践.md",
+    "[Fetching.md",
+    "_drafts/Vercel Postgres 简明教程.md",
+    "_tasks/Todo.md",
     "_tasks/归档.md",
     "README.md",
     "templates/script/ss_cos-daily.md",
-    "_drafts/Nest 学习记录（一） 了解、安装与使用.md",
     "_daily/2023/06/2023-06-12_周一.md",
-    "_drafts/Vercel Postgres 简明教程.md",
     "assets/Pasted image 20230710211136.png",
     "assets/Pasted image 20230710210404.png",
     "assets/Pasted image 20230710205411.png",
@@ -190,7 +202,6 @@
     "_posts/note/front-end/Tailwind-Update-v3-3.md",
     "_posts/note/front-end/2023 前端人的 RN 学习小记 —— 使用Expo创建 RN 项目.md",
     "_daily/2023/06/2023-06-16_周五.md",
-    "_drafts/Flutter 学习小记.md",
     "Screenshot_2023-06-20-14-37-42-694_host.exp.expon 1.jpg.md",
     "Pasted image 20230620140008.png.md",
     "templates/script/ss_new_post_draft.md",
@@ -204,8 +215,6 @@
     "templates/basic",
     "templates",
     "assets",
-    "_tasks/Todo.md",
-    "_tasks/Todo.md",
     "_tasks",
     "_posts/tools/小爱课程表.md",
     "_posts/tools/vercel部署Hexo博客.md",
