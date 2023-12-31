@@ -1,7 +1,7 @@
 ---
 title: 2022，写给自己的一篇文章
 link: 2022-life-review
-subtitile: 凡为过往，皆为序章
+subtitle: 凡为过往，皆为序章
 sticky: true
 catalog: true
 lang: cn
@@ -12,6 +12,7 @@ tags:
 categories:
 - 随笔
 ---
+
 2022，写给自己的一篇文章
 
 就在这几天，我的春招找实习结束了。投了很多家，挂了很多家，总结了不少经验教训。有很多不甘，意识到了自己的不足还有很多，也开始每天刷刷题，为秋招提前批做准备了。
